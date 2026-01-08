@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <h1 align="center">Hi 👋, I'm Karan Gupta</h1>
 <h3 align="center">A passionate frontend developer from India| NIT Jalandhar ICE’29 | Web Development Enthusiast | JavaScript | DSA in C++ |</h3>
 
