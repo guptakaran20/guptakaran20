@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Hi 👋, I'm Karan Gupta
@@ -41,15 +40,14 @@ B.Tech Instrumentation & Control Engineering
 NIT Jalandhar
 
 Currently Building
-├── ImportlyAI
-└── Scalable Backend Systems
+├── EventFlow
+└── Intelligent Attendance Management System (iAMS)
 
 Interested In
-├── Backend Engineering
 ├── Distributed Systems
 ├── AI Applications
-├── DevOps
-└── Cloud Computing
+├── Data Science
+└── Cloud-native infrastructure
 ```
 
 ---
@@ -57,17 +55,46 @@ Interested In
 # 🏆 Highlights
 
 - 🏅 Backend Developer Intern @ **XCEED NIT Jalandhar**
-- 🟠 **450+** LeetCode Problems Solved
-- 🏆 **1700 LeetCode Rating**
+- 🟠 **500+** LeetCode Problems Solved
+- 🏆 **1750 LeetCode Rating**
 - ⭐ **2★ CodeChef**
 - 🚀 Built and deployed multiple production-ready applications
-- ⚡ Experienced with **Redis**, **WebSockets**, and **Real-Time Systems**
-- ☁️ Deploying applications on **AWS EC2**
-- 🐳 Dockerized backend services
+- ⚡ Experienced with **Redis Streams**, **WebSockets**, and **Real-Time Distibruted Systems**
+- 🐳 Dockerizing and deploying production-ready backend services
+- ☁️ Deploying scalable applications on **AWS EC2** and **Render**
+- 🛠️ Designing REST APIs, background workers, and real-time systems
 
 ---
 
 # 🚀 Featured Projects
+
+## ⚙️ EventFlow
+
+Distributed Workflow Orchestration Engine
+
+**Features**
+
+- Graph-Based DAG Workflow Execution
+- Distributed Workers with Redis Streams
+- Automatic Retry Policies & Dead Letter Queue
+- Worker Heartbeats & Stuck Job Recovery
+- REST & gRPC Internal Transport
+- Real-Time Execution Monitoring Dashboard
+- API Key Authentication & JWT Security
+- Dockerized Microservices
+- PostgreSQL + Redis + FastAPI + Next.js
+
+**Tech**
+
+`FastAPI` `Python` `Next.js` `Alembic` `PostgreSQL`
+`Redis` `SQLAlchemy` `Docker` `gRPC` `Render`
+
+<p>
+<a href="https://goeventflow.vercel.app"><img src="https://img.shields.io/badge/Live-Demo-success?style=flat-square"/></a>
+<a href="https://github.com/guptakaran20/EventFlow"><img src="https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github"/></a>
+</p>
+
+---
 
 ## ⚔️ CodeArena
 
@@ -152,31 +179,47 @@ Production Ready eCommerce Platform
 
 # 💻 Tech Stack
 
-## Languages
+## 📝 Languages
 
-<img src="https://skillicons.dev/icons?i=cpp,ts,js,python"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,ts,js"/>
 
-## Frontend
+---
+
+## 🎨 Frontend
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css"/>
 
-## Backend
+React Query • Redux Toolkit • Framer Motion
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi"/>
+---
 
-Socket.IO • REST APIs • JWT • Google OAuth • WebSockets
+## ⚙️ Backend
 
-## Database
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express"/>
+
+REST APIs • WebSockets • Socket.IO • JWT • OAuth • gRPC
+
+---
+
+## 🗄️ Database & Storage
 
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql"/>
 
-Prisma ORM • Supabase
+SQLAlchemy • Prisma ORM • Supabase • Redis Streams
 
-## DevOps
+---
+
+## ☁️ DevOps & Cloud
 
 <img src="https://skillicons.dev/icons?i=docker,aws,nginx,git,github,vercel"/>
 
-Docker Compose • Linux
+Docker Compose • Linux • CI/CD • Render
+
+---
+
+## 🛠️ Tools & Technologies
+
+Redis Streams • Alembic • Pydantic • GeminiAPI • Postman
 
 ---
 
@@ -184,9 +227,9 @@ Docker Compose • Linux
 
 - ☸️ Kubernetes
 - ⚡ Microservices
-- 📡 Event-Driven Architecture
+- 📡 Cloud Infrastructure
+- 🧮 Data Science
 - 🤖 AI Agents & LLM Integrations
-- ☁️ CI/CD Pipelines
 
 ---
 
@@ -221,15 +264,17 @@ Docker Compose • Linux
 
 I enjoy solving backend challenges involving distributed systems, AI integrations, cloud infrastructure, and real-time communication.
 
+<h2 align="center"><strong>Eat Code Sleep Repeat</strong></h2>
+
 ---
 
 <div>
 
 ## 🤝 Let's Connect
 
-I'm always interested in collaborating on
+I'm always interested in collaborating on => and 
 
-**Backend Engineering • AI Applications • Full Stack Development • Cloud & DevOps • Open Source**
+**Backend Engineering • AI Applications • Developer productivity tool • Cloud & DevOps • Open Source**
 
 ⭐ If you like my work, don't forget to star my repositories!
 
