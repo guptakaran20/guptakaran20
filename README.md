@@ -16,6 +16,9 @@ Building scalable backend systems, AI-powered applications, and real-time web pl
 <a href="https://linkedin.com/in/guptakaran0720">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
 </a>
+<a href="https://guptakaran0720.vercel.app/resume.pdf">
+<img src="https://img.shields.io/badge/Resume-Download-orange?style=for-the-badge&logo=readthedocs"/>
+</a>
 <a href="mailto:guptakaran0720@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge&logo=gmail"/>
 </a>
