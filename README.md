@@ -59,8 +59,8 @@ Interested In
 
 - 🏅 Backend Developer Intern @ **XCEED NIT Jalandhar**
 - 🟠 **500+** LeetCode Problems Solved
-- 🏆 **1750 LeetCode Rating**
-- ⭐ **2★ CodeChef**
+- 🏆 **1857 LeetCode Rating**
+- ⭐ **Knight Leetcode**
 - 🚀 Built and deployed multiple production-ready applications
 - ⚡ Experienced with **Redis Streams**, **WebSockets**, and **Real-Time Distibruted Systems**
 - 🐳 Dockerizing and deploying production-ready backend services
