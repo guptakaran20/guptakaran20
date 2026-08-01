@@ -44,7 +44,7 @@ NIT Jalandhar
 
 Currently Building
 ├── EventFlow
-└── Intelligent Attendance Management System (iAMS)
+└── Intelligent Learning Engagement and Entity Detection (ILEED)
 
 Interested In
 ├── Distributed Systems
