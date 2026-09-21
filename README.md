@@ -37,7 +37,7 @@ $ whoami
 
 Karan Gupta
 
-Backend Developer Intern @ XCEED NIT Jalandhar
+Full Stack Developer @ XCEED NIT Jalandhar
 
 B.Tech Instrumentation & Control Engineering
 NIT Jalandhar
@@ -57,7 +57,7 @@ Interested In
 
 # 🏆 Highlights
 
-- 🏅 Backend Developer Intern @ **XCEED NIT Jalandhar**
+- 🏅 Full Stack Developer @ **XCEED NIT Jalandhar**
 - 🟠 **500+** LeetCode Problems Solved
 - 🏆 **1857 LeetCode Rating**
 - ⭐ **Knight Leetcode**
