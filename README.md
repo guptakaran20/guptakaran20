@@ -17,7 +17,7 @@ Building distributed backend systems, AI-powered applications, and real-time web
 <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
 </a>
 <a href="https://leetcode.com/u/guptakaran0720/">
-<img src="https://img.shields.io/badge/LeetCode-1857%20Knight-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+<img src="https://img.shields.io/badge/LeetCode-1870%20Knight-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
 </a>
 <a href="https://guptakaran0720.vercel.app/resume.pdf">
 <img src="https://img.shields.io/badge/Resume-Download-orange?style=for-the-badge&logo=readthedocs"/>
@@ -71,7 +71,7 @@ Interested In
 - 🔀 **160 pull requests raised, 149 merged** — **135** at XCEED, **10** to community & open-source repos
 - 📱 Built the **XCEED Learning App** (Android, with iOS on the way) — delta OTA updates, push notifications and an automated web → app sync pipeline
 - 🌱 **GSSoC'26** contributor — merged PR tagged `level:advanced`
-- 🟠 **500+** LeetCode problems solved · **1857 rating** · ⭐ **Knight**
+- 🟠 **600+** LeetCode problems solved · **1870 rating** · ⭐ **Knight** · top **5.7%** globally
 - ⚡ Hands-on with **Redis Streams**, **WebSockets**, **gRPC** and **real-time distributed systems**
 - 🐳 Dockerizing services with CI pipelines (lint, type-check, tests) on **GitHub Actions**
 - ☁️ Deploying on **AWS EC2 + Nginx**, **Render** and **Vercel**
