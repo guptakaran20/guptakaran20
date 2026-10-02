@@ -4,7 +4,7 @@
 
 ### Full Stack Developer • Backend Engineer • Software Engineer
 
-Building distributed backend systems, AI-powered applications, and real-time web platforms.
+Building distributed backend systems, AI-powered applications,and real-time web platforms.
 
 <p>
 <a href="https://guptakaran0720.vercel.app">
