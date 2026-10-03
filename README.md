@@ -53,7 +53,7 @@ Recently Shipped
 ├── EventFlow     → distributed workflow orchestration engine
 ├── ImportlyAI    → AI-powered CSV import pipeline
 ├── CodeArena     → real-time coding battle platform
-└── Aarogya Club  → real-time orientation quiz (9 merged PRs)
+└── Aarogya Club  → real-time orientation quiz 
 
 Interested In
 ├── Distributed Systems
