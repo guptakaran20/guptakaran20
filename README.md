@@ -68,7 +68,7 @@ Interested In
 
 - 💼 Full Stack Developer @ **XCEED NIT Jalandhar** — attendance platform for **1,000+ students** across **30+ cameras**
 - 📈 **1,400+ contributions** on GitHub in the last year
-- 🔀 **160 pull requests raised, 149 merged** — **135** at XCEED, **10** to community & open-source repos
+- 🔀 **160 pull requests raised, 149 merged** — **135** at XCEED, **10** to community & open-source repos.
 - 📱 Built the **XCEED Learning App** (Android, with iOS on the way) — delta OTA updates, push notifications and an automated web → app sync pipeline
 - 🌱 **GSSoC'26** contributor — merged PR tagged `level:advanced`
 - 🟠 **600+** LeetCode problems solved · **1870 rating** · ⭐ **Knight** · top **5.7%** globally
