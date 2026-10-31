@@ -2,9 +2,9 @@
 
 # Hi 👋, I'm Karan Gupta
 
-### Full Stack Developer • Backend Engineer • Software Engineer
+### Full Stack Developer & App Lead • Backend Engineer • Software Engineer
 
-Building distributed backend systems, AI-powered applications,and real-time web platforms.
+Building distributed backend systems, AI-powered applications, and real-time web platforms.
 
 <p>
 <a href="https://guptakaran0720.vercel.app">
@@ -29,6 +29,13 @@ Building distributed backend systems, AI-powered applications,and real-time web 
 
 <img src="https://komarev.com/ghpvc/?username=guptakaran20&label=Profile%20Views&color=0e75b6&style=flat"/>
 
+<br/><br/>
+
+<a href="https://guptakaran0720.vercel.app"><img src="assets/portfolio-hero.jpg" width="48%" alt="Portfolio hero: a flip calendar and a photo that comes back to colour under the cursor"/></a>
+<a href="https://guptakaran0720.vercel.app"><img src="assets/portfolio-doors.jpg" width="48%" alt="Portfolio work section: four doors, one per field, that you walk through"/></a>
+
+<sub>My portfolio: a wall of doors you walk through to see the work. Pull the cord to switch the lights off.</sub>
+
 </div>
 
 ---
@@ -40,20 +47,21 @@ $ whoami
 
 Karan Gupta
 
-Full Stack Developer @ XCEED NIT Jalandhar
+Full Stack Developer & App Lead @ XCEED NIT Jalandhar
 
 B.Tech Instrumentation & Control Engineering
 NIT Jalandhar (2025 – 2029) · CGPA 8.49
 
 Currently Building @ XCEED
 ├── ILEED – Intelligent Learning Engagement and Entity Detection
-└── XCEED Learning App – Android & iOS (Capacitor)
+└── XCEED Learning App – Android & iOS (Capacitor), live on Google Play
 
 Recently Shipped
 ├── EventFlow     → distributed workflow orchestration engine
 ├── ImportlyAI    → AI-powered CSV import pipeline
 ├── CodeArena     → real-time coding battle platform
-└── Aarogya Club  → real-time orientation quiz 
+├── Aarogya Club  → real-time orientation quiz
+└── Portfolio     → redesigned as a wall of doors you walk through
 
 Interested In
 ├── Distributed Systems
@@ -66,12 +74,12 @@ Interested In
 
 # 🏆 Highlights
 
-- 💼 Full Stack Developer @ **XCEED NIT Jalandhar** — attendance platform for **1,000+ students** across **30+ cameras**
-- 📈 **1,400+ contributions** on GitHub in the last year
-- 🔀 **160 pull requests raised, 149 merged** — **135** at XCEED, **10** to community & open-source repos.
-- 📱 Built the **XCEED Learning App** (Android, with iOS on the way) — delta OTA updates, push notifications and an automated web → app sync pipeline
+- 💼 Full Stack Developer & App Lead @ **XCEED NIT Jalandhar** — face-recognition attendance for **1,000+ students** across **30+ cameras**
+- 📈 **1,890+ contributions** on GitHub in the last year, with a **111-day streak**
+- 🔀 **233 pull requests** authored at XCEED, **219 merged** into main, **740+ commits** shipped · plus **10 merged** to community & open-source repos
+- 📱 Lead the **XCEED Learning App** — live on **Google Play**, iOS in **App Store review** — delta OTA updates (**21.6 MB → 0.41 MB**), push notifications, SOS alerts and **100+** automated web → app syncs
 - 🌱 **GSSoC'26** contributor — merged PR tagged `level:advanced`
-- 🟠 **600+** LeetCode problems solved · **1870 rating** · ⭐ **Knight** · top **5.7%** globally
+- 🟠 **639** LeetCode problems solved (**88+ Hard**) · **1870 rating** · ⭐ **Knight** · top **5.7%** globally · best contest rank **2,171**
 - ⚡ Hands-on with **Redis Streams**, **WebSockets**, **gRPC** and **real-time distributed systems**
 - 🐳 Dockerizing services with CI pipelines (lint, type-check, tests) on **GitHub Actions**
 - ☁️ Deploying on **AWS EC2 + Nginx**, **Render** and **Vercel**
@@ -80,21 +88,25 @@ Interested In
 
 # 💼 Experience
 
-### 🏅 Full Stack Developer — XCEED, NIT Jalandhar &nbsp;·&nbsp; *Jun 2026 – Present*
+### 🏅 Full Stack Developer & App Lead — XCEED, NIT Jalandhar &nbsp;·&nbsp; *Jun 2026 – Present*
 
-`145 PRs` `135 merged` `560 commits` across the institute's AMS platform and its mobile app
+`233 PRs` `219 merged` `740+ commits` across the institute's AMS platform and its mobile app
 
 #### 🎯 ILEED – Intelligent Learning Engagement and Entity Detection
 
 AI attendance platform for **1,000+ students** across **30+ cameras**
 
-`140 PRs` `131 merged` `269 commits` `Jun – Sep 2026`
+`219 PRs` `205 merged` `Jun – Oct 2026`
 
-`Node.js` `Express` `React` `Python` `MongoDB` `FAISS` `ONNX` `FFmpeg` `FCM` `PM2`
+`Node.js` `Express` `React` `Python` `MongoDB` `FAISS` `ONNX Runtime` `FFmpeg` `FCM` `PM2` `Claude API` `Gemini API`
+
+**📊 Results:** ERP list load **2.0s → 915ms** · **29 students** recovered from face-cluster merges · **0 of 60** requests dropped when a worker is killed
 
 **🧠 Face recognition & ML pipeline**
-- Built real-time, institute-wide student identification from uploaded videos and **live RTSP streams** on a **FAISS** vector index, with **RetinaFace (ONNX)** detection and automatic model download
-- Automated ERP face-embedding generation, **nightly subject-embedding rebuilds**, and active learning from backup images with low-confidence eviction
+- Built real-time, institute-wide student identification from uploaded videos and **live RTSP streams** on a **FAISS** vector index: **RetinaFace** detection, **AdaFace IR-50** embeddings and **MiniFASNetV2** anti-spoofing on **ONNX Runtime**
+- **Per-frame voting after DBSCAN clustering**, recovering 29 students across 9 periods who were marked absent when neighbouring faces merged
+- Active learning that keeps only clear face crops (sharpness, head pose, detector score, runner-up margin), with automated ERP embeddings and **nightly FAISS rebuilds**
+- **AI Studio:** notes and quizzes from lecture transcripts and PDF/PPTX slides with **Claude** and **Gemini**, reserving each call's worst-case cost so credit limits hold
 - Added unknown-face storage and automated face clustering with confidence scores; integrated **Gemini** as the primary AI generation provider
 
 **📸 Ground truth & attendance workflows**
@@ -107,6 +119,7 @@ AI attendance platform for **1,000+ students** across **30+ cameras**
 - Live-preview auto-retry and stale-frame detection; fixed a use-after-free when an RTSP capture was released before its reader thread stopped
 
 **🛠️ Reliability, DevOps & observability**
+- Split the Node.js server into an **IPC-routed pool** of quiz and learning workers that replaces frozen processes on its own
 - One-click **Pull & Deploy** with a health check and **automatic rollback**; an ML-service deploy button that replaced manual `scp`
 - **GPU inventory dashboard** with best-card selection, MIG-slice and per-service VRAM telemetry; fixed an H100 crash-loop
 - Health monitoring, recovery/lifecycle email alerts, a twice-daily uptime digest, an SMTP-lockout-safe mail outbox, and a server error console
@@ -115,21 +128,22 @@ AI attendance platform for **1,000+ students** across **30+ cameras**
 **🔐 Security**
 - Fixed broken access control for the student role, a pre-quiz data leak, unauthenticated exposure of ERP roll numbers, and Host-header trust in OTA download URLs
 
-#### 📱 XCEED Learning App — Android & iOS
+#### 📱 XCEED Learning App — Android & iOS &nbsp;·&nbsp; *App Lead*
 
-The AMS web platform as a native mobile app: kept in sync with the web codebase and updated over the air.
+The AMS web platform as a native mobile app, live on Google Play: kept in sync with the web codebase and updated over the air.
 
-`5 PRs` `4 merged` `291 commits` `Aug – Sep 2026`
+`14 PRs` `420 commits` `Aug – Oct 2026`
 
 `React` `Vite` `Capacitor` `Capgo Updater` `FCM` `TanStack Query` `GitHub Actions`
 
 - **Built the app from the first commit:** PIN + native biometric sign-in, camera capture, multi-account switching, and deep links (Android App Links, iOS universal links)
-- **OTA update pipeline:** a secure OTA server with GitHub Action deploys and an admin "Publish OTA" button, then **delta OTA** that downloads only the files a release changed, instead of a ~21.6 MB, 574-file zip every time
-- **AMS → app sync pipeline:** 75 automated syncs of the web client through a vendor branch, with custom merge drivers and automatic resolution of additive conflicts. Mobile-only behaviour lives behind override "seams" so the app never edits AMS files, and an `ams-edits` checker enforces it (sped up from 87s to 0.3s)
+- **OTA update pipeline:** a secure OTA server with GitHub Action deploys and an admin "Publish OTA" button, then **delta OTA** that downloads only the files a release changed: **0.41 MB** for a small release instead of a ~21.6 MB, 574-file zip every time
+- **AMS → app sync pipeline:** 100+ automated syncs of the web client through a vendor branch, with custom merge drivers and automatic resolution of additive conflicts. Mobile-only behaviour lives behind override "seams" so the app never edits AMS files, and an `ams-edits` checker enforces it (sped up from 87s to 0.3s)
+- **SOS alerts** that notify every admin and share the sender's live location every 30s, even with the app closed
 - **Push notifications** via **Firebase Cloud Messaging**: attendance and quiz alerts, broadcasts to every app user, many-to-many device-token registration
 - **Offline-first caching:** TanStack Query persisted to Capacitor Preferences and bounded by build version; a global 401 interceptor that ends zombie sessions
 - Native file handling (timetable PDFs, study material and CSV exports saved in-app), leaner OTA and APK bundles, and keeping session tokens out of stream URLs
-- Bringing the **iOS platform** into the repo: CocoaPods, a light/dark launch screen and app icon
+- The **iOS build**, now in **App Store review**: CocoaPods, Universal Links, a light/dark launch screen and app icon
 
 <sub>🔒 Private organisation repositories — stats are from the PRs and commits I authored.</sub>
 
@@ -251,7 +265,7 @@ Full Stack SaaS Sponsorship Platform &nbsp;·&nbsp; `41 commits · 3 merged PRs 
 |---|---|---|
 | 🛒 [**Arovia Vibes**](https://github.com/guptakaran20/AroviaVibes) · [Live](https://aroviavibes.vercel.app) | Production eCommerce store with an admin panel, analytics and email workflows | `Next.js` `Supabase` `Resend` |
 | 🎭 [**SeatSphere**](https://github.com/guptakaran20/SeatSphere) | Auditorium booking & event management: club event requests, admin approvals, seat locking & booking, QR ticket validation, OTP auth, 3D hero UI | `Next.js` `Prisma` `NextAuth` |
-| 🌐 [**Portfolio**](https://github.com/guptakaran20/portfolio) · [Live](https://guptakaran0720.vercel.app) | Personal portfolio with SEO optimisation · 54 commits | `Next.js` `TypeScript` |
+| 🌐 [**Portfolio**](https://github.com/guptakaran20/portfolio) · [Live](https://guptakaran0720.vercel.app) | A wall of doors you walk through: a pull-cord light switch drawn on canvas, a flip-calendar hero, and project rooms showing the live sites · 79 commits | `Next.js` `TypeScript` `Canvas` |
 
 ---
 
@@ -267,6 +281,7 @@ Jun  ▸ Joined XCEED · ERP auto-embeddings, unknown-face clustering · built C
 Jul  ▸ FAISS live-stream identification @ XCEED · ImportlyAI (2 days) · EventFlow (10 days)
 Aug  ▸ Launched the XCEED Learning App: OTA updates, biometric sign-in, push · Aarogya quiz: 9 PRs in 6 days
 Sep  ▸ Delta OTA, AMS → app sync pipeline, iOS platform · Pull & Deploy with auto-rollback, GPU dashboard
+Oct  ▸ iOS build in App Store review · redesigned the portfolio: doors, pull cord, flip calendar
 ```
 
 ---
@@ -315,7 +330,7 @@ Docker Compose • GitHub Actions CI/CD • PM2 • Prometheus • Grafana • L
 
 <img src="https://skillicons.dev/icons?i=androidstudio,firebase"/>
 
-Capacitor • Firebase Cloud Messaging • Android
+Capacitor • Firebase Cloud Messaging • Android • iOS
 
 ---
 
