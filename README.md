@@ -31,8 +31,8 @@ Building distributed backend systems, AI-powered applications, and real-time web
 
 <br/><br/>
 
-<a href="https://guptakaran0720.vercel.app"><img src="assets/portfolio-hero.jpg" width="48%" alt="Portfolio hero: a flip calendar and a photo that comes back to colour under the cursor"/></a>
-<a href="https://guptakaran0720.vercel.app"><img src="assets/portfolio-doors.jpg" width="48%" alt="Portfolio work section: four doors, one per field, that you walk through"/></a>
+<a href="https://guptakaran0720.vercel.app"><img src="https://raw.githubusercontent.com/guptakaran20/guptakaran20/main/assets/portfolio-hero.jpg" width="48%" alt="Portfolio hero: a flip calendar and a photo that comes back to colour under the cursor"/></a>
+<a href="https://guptakaran0720.vercel.app"><img src="https://raw.githubusercontent.com/guptakaran20/guptakaran20/main/assets/portfolio-doors.jpg" width="48%" alt="Portfolio work section: four doors, one per field, that you walk through"/></a>
 
 <sub>My portfolio: a wall of doors you walk through to see the work. Pull the cord to switch the lights off.</sub>
 
