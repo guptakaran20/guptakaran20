@@ -1,0 +1,25 @@
+{
+  "public_repos": 28,
+  "repos": {
+    "EventFlow": {
+      "stars": 0,
+      "forks": 1,
+      "language": "Python"
+    },
+    "CodeBattle": {
+      "stars": 0,
+      "forks": 1,
+      "language": "TypeScript"
+    },
+    "ImportlyAI": {
+      "stars": 0,
+      "forks": 1,
+      "language": "TypeScript"
+    },
+    "Sponsorship": {
+      "stars": 0,
+      "forks": 2,
+      "language": "TypeScript"
+    }
+  }
+}
